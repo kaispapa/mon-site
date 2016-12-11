@@ -1,0 +1,5 @@
+abdel:
+    resource: "@AbdelBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

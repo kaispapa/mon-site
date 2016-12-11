@@ -1,0 +1,4 @@
+services:
+#    abdel.example:
+#        class: AbdelBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

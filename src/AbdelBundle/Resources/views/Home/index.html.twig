@@ -1,0 +1,34 @@
+{% extends '::base.html.twig' %}
+
+ {% block content %}
+    <!--  section entete  -->
+    {% include('home_section.html.twig')%}
+    <!--  section a propos de moi -->
+     {% include('moncv.html.twig')%}
+    <!-- Services Section -->
+    {% include('services.html.twig')%}
+    <!-- cours Section -->
+    {% include('coursvideo.html.twig')%}
+    
+    <!-- citations  -->
+	    <div id="testimonials">
+	        <div class="overlay">
+	            <div class="container">
+	                <div class="section-title">
+	                    <h2>Citation ...</h2>
+	                    <hr>
+	                </div>
+
+	                <div id="testimonial" class="owl-carousel owl-theme">
+	                  <div class="item">
+	                    <h3>Tout ce qui est autour de vous, <br>tout ce que vous appelez la vie a été fait par des gens qui ne sont pas plus intelligents que vous et vous pouvez changer ça, <br>vous pouvez l’influencer et élaborer vos propres inventions, <br>vos propres modes de vie que les autres pourront à leur tour utiliser. 
+	                    <br></h3>
+	                    <h6>Steve Jobs</h6>
+	                  </div>
+	           
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+
+  {% endblock content %}
